@@ -1,0 +1,42 @@
+{
+  "name": "docen-edge",
+  "version": "0.0.0",
+  "description": "Programmatically obtaining various file types, powered by Demo Macro.",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r prepack",
+    "check": "biome check . --apply-unsafe && biome format . --write",
+    "format": "prettier --write --list-different . --ignore-path .gitignore",
+    "edge": "pnpm -r exec bump v",
+    "release": "pnpm -r exec bump v -r patch",
+    "public": "pnpm -r exec bump p",
+    "postinstall": "githooks install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docenjs/types.git"
+  },
+  "keywords": [
+    "types",
+    "mime"
+  ],
+  "author": {
+    "name": "Demo Macro",
+    "email": "abc@imst.xyz",
+    "url": "https://imst.xyz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/docenjs/types/issues"
+  },
+  "homepage": "https://github.com/docenjs/types#readme",
+  "devDependencies": {
+    "@funish/githooks": "edge",
+    "@funish/githooks-config": "edge",
+    "@funish/lint": "edge",
+    "@types/node": "20.10.5",
+    "prettier": "3.1.1",
+    "@biomejs/biome": "1.4.1",
+    "unbuild": "2.0.0"
+  }
+}
