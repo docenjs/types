@@ -36,11 +36,14 @@ importers:
   playground:
     dependencies:
       "@docen/csv":
-        specifier: 0.0.6
-        version: 0.0.6
+        specifier: 0.0.7-edge.1
+        version: 0.0.7-edge.1
       ofetch:
         specifier: 1.3.3
         version: 1.3.3
+      papaparse:
+        specifier: ^5.4.1
+        version: 5.4.1
 
 packages:
   /@ampproject/remapping@2.2.1:
@@ -405,10 +408,10 @@ packages:
     dev: true
     optional: true
 
-  /@docen/csv@0.0.6:
+  /@docen/csv@0.0.7-edge.1:
     resolution:
       {
-        integrity: sha512-9Ysk+g238HiyU6qwx1kGCK/4fU47C/TNwAaYEEDpH/QEtUmctejSiJBSVIyP/VSdhpN3+mcvqMijiicNtftlSg==,
+        integrity: sha512-+1NMSMVXwqPMjMcJZZLCAWV7nMy9In7NmmqoCUoJ6Y0Dpc0ixWw8jXWG369VLwLzpL5etgbTliRozuEX+t/azQ==,
       }
     dev: false
 
@@ -2262,6 +2265,13 @@ packages:
     dependencies:
       mimic-fn: 4.0.0
     dev: true
+
+  /papaparse@5.4.1:
+    resolution:
+      {
+        integrity: sha512-HipMsgJkZu8br23pW15uvo6sib6wne/4woLZPlFf3rpDyMe9ywEXUsuD7+6K9PRkJlVT51j/sCOYDKGGS3ZJrw==,
+      }
+    dev: false
 
   /path-key@3.1.1:
     resolution:

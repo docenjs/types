@@ -14,7 +14,8 @@
     }
   },
   "scripts": {
-    "prepack": "unbuild"
+    "prepack": "unbuild",
+    "update": "node iana-update.mjs"
   },
   "repository": {
     "type": "git",

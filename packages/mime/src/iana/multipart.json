@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "alternative",
+    "Template": "[RFC2046][RFC2045]",
+    "Reference": ""
+  },
+  {
+    "Name": "appledouble",
+    "Template": "multipart/appledouble",
+    "Reference": "[Patrik_Faltstrom]"
+  },
+  {
+    "Name": "byteranges",
+    "Template": "multipart/byteranges",
+    "Reference": "[RFC9110]"
+  },
+  {
+    "Name": "digest",
+    "Template": "[RFC2046][RFC2045]",
+    "Reference": ""
+  },
+  {
+    "Name": "encrypted",
+    "Template": "multipart/encrypted",
+    "Reference": "[RFC1847]"
+  },
+  {
+    "Name": "example",
+    "Template": "multipart/example",
+    "Reference": "[RFC4735]"
+  },
+  {
+    "Name": "form-data",
+    "Template": "multipart/form-data",
+    "Reference": "[RFC7578]"
+  },
+  {
+    "Name": "header-set",
+    "Template": "multipart/header-set",
+    "Reference": "[Dave_Crocker]"
+  },
+  {
+    "Name": "mixed",
+    "Template": "[RFC2046][RFC2045]",
+    "Reference": ""
+  },
+  {
+    "Name": "multilingual",
+    "Template": "multipart/multilingual",
+    "Reference": "[RFC8255]"
+  },
+  {
+    "Name": "parallel",
+    "Template": "[RFC2046][RFC2045]",
+    "Reference": ""
+  },
+  {
+    "Name": "related",
+    "Template": "multipart/related",
+    "Reference": "[RFC2387]"
+  },
+  {
+    "Name": "report",
+    "Template": "multipart/report",
+    "Reference": "[RFC6522]"
+  },
+  {
+    "Name": "signed",
+    "Template": "multipart/signed",
+    "Reference": "[RFC1847]"
+  },
+  {
+    "Name": "vnd.bint.med-plus",
+    "Template": "multipart/vnd.bint.med-plus",
+    "Reference": "[Heinz-Peter_SchÃ¼tz]"
+  },
+  {
+    "Name": "voice-message",
+    "Template": "multipart/voice-message",
+    "Reference": "[RFC3801]"
+  },
+  {
+    "Name": "x-mixed-replace",
+    "Template": "multipart/x-mixed-replace",
+    "Reference": "[W3C][Robin_Berjon]"
+  },
+  {
+    "Name": "",
+    "Template": "",
+    "Reference": ""
+  }
+]
